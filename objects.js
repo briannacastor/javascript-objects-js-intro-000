@@ -1,9 +1,16 @@
 var playlist= {
-  theBreeders: "cannonball",
-  alGreen: "callMe",
-  samCooke: "cupid"
+  artist1: "song3",
+  artist2: "song2",
+  artist3: "song3"
 };
-function updatePlaylist(playlist, madonna, likeAPrayer){
+function updatePlaylist(thePlaylist, artistName, songTitle){
   return Object.assign({},
-    playlist,{[madonna]:likeAPrayer});
+    thePlaylist, { [artistName]: songTitle});
 }
+updatePlaylist(playlist,"artist4","song4");
+
+function removeFromPlaylist(thePlaylist, artistName){
+  delete thePlaylist[artistName];
+  return thePlaylist;
+}
+removeFromPlaylist(playlist; "artist2");
