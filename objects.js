@@ -4,6 +4,6 @@ var playlist= {
   samCooke: "cupid"
 }
 function updatePlaylist(playlist){
-  playlist[madonna 'likeAPrayer'];
+  playlist.madonna ='likeAPrayer';
   return playlist
 }
