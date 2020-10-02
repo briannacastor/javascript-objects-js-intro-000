@@ -1,9 +1,5 @@
 var playlist= {
-  philOchs: "slowDive",
-  alGreen: "myBloodyValentine",
+  theBreeders: "cannonball",
+  alGreen: "callMe",
   samCooke: "cupid"
-}
-function updatePlaylist(playlist){
-  playlist.madonna ='likeAPrayer';
-  return playlist
 }
