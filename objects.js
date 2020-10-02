@@ -1,6 +1,6 @@
 var playlist= {
-  jidenne: "vaporiza",
-  alGreen: "callMe",
+  philOchs: "slowDive",
+  alGreen: "myBloodyValentine",
   samCooke: "cupid"
 }
 function updatePlaylist(playlist){
